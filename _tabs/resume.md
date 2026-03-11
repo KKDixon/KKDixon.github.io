@@ -1,6 +1,6 @@
 ---
 layout: none
-icon: fa-solid fa-file
+icon: fas fa-file
 order: 3
 ---
 
