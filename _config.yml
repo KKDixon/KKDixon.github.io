@@ -14,27 +14,23 @@ timezone: America/New_York
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Kelvon Dixon 
+title: Kelvon Dixon
 
 tagline: Freshman CS Student @ NCSU
 
 description: >- # used by seo meta and the atom feed
-  MWOedsMWOedsMWOeds MWOeds MWOedsMWOedsMWOeds MWOedsMWOeds
-
+  My personal blog built with Jekyll and the Chirpy theme.
 
 url: "https://kkdixon.github.io"
 
 github:
-  username: https://github.com/KKDixon 
-
-twitter:
-  username: twitter_username # change to your Twitter username
+  username: KKDixon
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: Kelvon Dixon
-  email: kkdixon139@gmail.com 
+  email: kkdixon139@gmail.com
   links:
     # The first element serves as the copyright owner's link
     - https://github.com/KKDixon # change to your GitHub homepage
@@ -84,7 +80,7 @@ pageviews:
 #     light — Use the light color scheme
 #     dark — Use the dark color scheme
 #
-theme_mode: # [light | dark]
+theme_mode: dark
 
 # The CDN endpoint for media resources.
 # Notice that once it is assigned, the CDN url
