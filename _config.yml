@@ -21,7 +21,7 @@ tagline: Freshman CS Student @ NCSU
 description: >- # used by seo meta and the atom feed
   My personal blog built with Jekyll and the Chirpy theme.
 
-url: "https://kkdixon.github.io"
+url: "https://KKDixon.github.io"
 
 github:
   username: KKDixon
@@ -140,6 +140,7 @@ pwa:
       # - "/example"  # URLs match `<SITE_URL>/example/*` will not be cached by the PWA
 
 paginate: 10
+paginate_path: "/page:num/"
 
 # The base URL of your site
 baseurl: ""
