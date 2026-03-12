@@ -3,6 +3,7 @@ title: "Screenscore: Screen Time Quality Tracker"
 date: 2026-01-03 15:00:00 +0000
 categories: [Personal Projects]
 tags: [Python, Flask, JS, SQLite, React, Chart.js]
+description: A full-stack web application that evaluates the quality of screen time, not just the quantity
 image:
   path: ../assets/imgs/screenscore_dashboard.png
   alt: View of the application UI.
@@ -55,4 +56,3 @@ screenscore/\
 │   │   └── utils/      &emsp;&emsp;     # Score & Date calculation helpers\
 └── README.md
 
-## Screenshots
