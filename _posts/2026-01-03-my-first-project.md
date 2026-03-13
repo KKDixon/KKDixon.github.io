@@ -42,17 +42,19 @@ This project allowed me to bridge the gap between two powerful ecosystems:
 ## 📁 Project Architecture
 I organized the project into a clear separation of concerns, ensuring the API logic remains independent of the UI components.
 
-screenscore/\
-├── backend/\
-│   ├── app/\
-│   │   ├── models/ &emsp;&emsp;         # SQLAlchemy Database models\
-│   │   ├── routes/ &emsp;&emsp;         # API Endpoints (CRUD & Analytics)\
-│   │   └── services/   &emsp;&emsp;     # Core business & scoring logic\
-│   └── run.py     &emsp; &emsp;&emsp;         # Flask entry point\
-├── frontend/\
-│   ├── src/\
-│   │   ├── pages/      &emsp;&emsp;     # Dashboard, Sessions, Analytics\
-│   │   ├── services/   &emsp;&emsp;     # Axios API integration\
-│   │   └── utils/      &emsp;&emsp;     # Score & Date calculation helpers\
+```text
+screenscore/
+├── backend/
+│   ├── app/
+│   │   ├── models/        # SQLAlchemy Database models
+│   │   ├── routes/        # API Endpoints (CRUD & Analytics)
+│   │   └── services/      # Core business & scoring logic
+│   └── run.py             # Flask entry point
+├── frontend/
+│   ├── src/
+│   │   ├── pages/         # Dashboard, Sessions, Analytics
+│   │   ├── services/      # Axios API integration
+│   │   └── utils/         # Score & Date calculation helpers
 └── README.md
+```
 

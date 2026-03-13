@@ -11,14 +11,13 @@ image:
 
 ## 🎯 The Vision
 
-Placeholder
+I wanted to build a space that captured the "antique library" vibe—leather, wood, and quiet focus—while using a modern tech stack to handle the heavy lifting of data entry. This project is a labor of love, combining my interest in full-stack architecture with my passion for reading.
 
 ---
 
 ## 💡 Purpose & Functionality
 
-Placeholder
-
+The goal was simple: **Less typing, more reading.** I built this to solve the friction of manual entry. By integrating the **Google Books API**, I can add a book to my digital shelf in seconds. The app stores a title and tracks the pulse of my reading habit.
 
 ---
 
@@ -27,13 +26,33 @@ Placeholder
 
 ## 🛠️ The Tech Stack
 
-Placeholder
+I chose this stack to learn how to bridge a robust Python backend with a reactive, modern frontend.
+
+* **Backend:** Python & Flask 3.0. I used **SQLAlchemy** because I wanted to practice proper relational mapping with a SQLite database.
+* **Frontend:** React 18 (Vite). I focused on building reusable components and handling asynchronous data with **Axios**.
+* **Visualization:** **Recharts** for the data, and custom **CSS3** for that specific antique library aesthetic I was wanted.
 
 ---
 
 ## 📁 Project Architecture
 
 
-Placeholder
+```text
+bookshelf/
+├── backend/
+│   ├── app/
+│   │   ├── models/          # Where the book and user data lives
+│   │   ├── routes/          # My REST API endpoints (CRUD & Stats)
+│   │   └── __init__.py      # App factory setup
+│   ├── run.py               # Entry point
+│   └── requirements.txt     
+├── frontend/
+│   ├── src/
+│   │   ├── components/      # Reusable UI like the BookCard and Analytics
+│   │   ├── services/        # The Axios bridge to my Flask API
+│   │   ├── App.jsx          # Main logic
+│   │   └── main.jsx         
+└── README.md
+```
 
 ---
