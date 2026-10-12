@@ -9,22 +9,20 @@ image:
   alt: View of the application UI.
 ---
 
+## 🎯 Vision & Purpose
+As my first personal project, I wanted to keep things straightforward and get a real, hands-on feel for the full-stack development process. 
 
-## 🎯 The Vision
-Most screen-time trackers focus on *quantity*—how many hours you spent staring at a glass rectangle. **ScreenScore** flips the script by focusing on **quality**. 
+To be honest, over the summer, days started blurring together where it felt like I did basically nothing. A basic phone trackers would just throw a generic warning saying "X hours = bad," which didn't help me differentiate between spending two hours reading the news or two hours unthinkingly doom-scrolling.
 
-As someone new to web devolopment, I wanted to build a tool that didn't just nag me about my phone usage, but helped me prioritize "Work" and "Learning" over mindless scrolling. I built this using a **Flask** backend and a **React** frontend to get hands-on experience with modern full-stack architecture.
-
----
-
-## 💡 Purpose & Functionality
-The core purpose of ScreenScore is to move beyond the "Screen Time is Bad" narrative and focus on **intentionality**. 
+I built ScreenScore to change that narrative. It’s a tool designed to give me a way to quantitatively compare how my days actually stacked up.
 
 ### What it does:
-* **Weighted Scoring:** Instead of a flat minute-count, it calculates a score from 0-100 based on the "Quality Grade" you assign to categories.
-* **Category Context:** It differentiates between a 2-hour coding session (High Quality) and a 2-hour doom-scroll (Low Quality).
-* **Trend Tracking:** It visualizes your progress over the week, helping you identify which days of the week your productivity dips.
-* **Data Persistence:** Using a Flask/SQLAlchemy backend, it keeps a permanent record of your digital habits.
+* **Weighted Scoring:** Instead of a flat minute-count, it calculates a score from 0 to 100 based on the "Quality Grade" you assign to different categories.
+* **Category Context:** Differentiates between a high-value 2-hour coding session and a low-value 2-hour rabbit hole.
+* **Trend Tracking:** Visualizes weekly progress so you can instantly spot your productive peaks and dips.
+* **Data Persistence:** Backed by Flask and SQLAlchemy to keep a permanent, structured log of your digital habits.
+
+
 
 ---
 
@@ -32,15 +30,14 @@ The core purpose of ScreenScore is to move beyond the "Screen Time is Bad" narra
 
 
 ## 🛠️ The Tech Stack
-This project allowed me to bridge the gap between two powerful ecosystems:
-* **Backend:** Python with Flask & SQLAlchemy (SQLite for data persistence).
-* **Frontend:** React 18 powered by Vite for a lightning-fast UI.
-* **Visualization:** Chart.js to turn raw database entries into actionable trends.
+
+* **Backend:** Python with Flask & SQLAlchemy 
+* **Frontend:** React + Vite
+* **Visualization:** Chart.js to turn raw database entries into visual trends.
 
 ---
 
 ## 📁 Project Architecture
-I organized the project into a clear separation of concerns, ensuring the API logic remains independent of the UI components.
 
 ```text
 screenscore/

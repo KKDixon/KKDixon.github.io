@@ -4,7 +4,7 @@ icon: fas fa-user
 order: 1
 ---
 
-I'm a **Computer Science freshman** with a passion for building software that solves real-world problems. 
+I'm a Computer Science sophmore with a passion for building software that solves real-world problems. 
 
 ### 🚀 My Journey
 I started university with a near blank slate in programming, but I've quickly fallen in love with the "aha!" moments of problem-solving. To me, coding isn't just about syntax—it's about the creativity required to build applications that are both powerful and user-friendly.
@@ -13,11 +13,11 @@ I use this site to document my journey in tech and keep track of things I've lea
 ### My Skills
 - **Languages:** Python, Java, JavaScript, SQL, C/C++, HTML/CSS 
 - **Tools:**  VS Code, Git, Github, Postman/Curl
-- **Career Interests:** Full Stack Web Development, Machine Learning, Data Science
+- **Career Interests:** Full Stack Web Development, Cloud Platforms
 
 ### Projects
 **Past Projects:** Full-Stack Screen Time Quality Tracker, Personal Library Management System\
-**Currently Working on:** Personal Command Center Dashboard
+**Currently Working on:** TBA
 
 
 ### Contact

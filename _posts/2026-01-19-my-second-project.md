@@ -9,28 +9,27 @@ image:
   alt: View of the application UI.
 ---
 
-## 🎯 The Vision
+## 🎯 Vision & Purpose
+I built Bookshelf to get my hands dirty with external API integration while building something that speaks to my love of reading. 
 
-I wanted to build a space that captured the "antique library" vibe—leather, wood, and quiet focus—while using a modern tech stack to handle the heavy lifting of data entry. This project is a labor of love, combining my interest in full-stack architecture with my passion for reading.
+My reading habits can be pretty inconsistent. I usually end up binge-reading during the summer when I actually have free time, only to step away during the school year. Because of that, I never really kept a solid list of what I’ve read or where I left off
 
----
+The main goal here was less typing and more reading so adding the books wouldn't feel like a chore. By hooking into the *oogle Books API, I made it so I can add a book to my collection in seconds without manually entering the small details, creating a nice digital home for my physical library.
 
-## 💡 Purpose & Functionality
-
-The goal was simple: **Less typing, more reading.** I built this to solve the friction of manual entry. By integrating the **Google Books API**, I can add a book to my digital shelf in seconds. The app stores a title and tracks the pulse of my reading habit.
-
----
-
-
+### What it does:
+* **Google Books Search:** Auto-fills titles, authors, page counts, and cover art directly from the API.
+* **Full CRUD Management:** Easily add, edit personal ratings/notes, update statuses, or remove books.
+* **Reading Progress:** Calculates real-time completion percentages so you know exactly where you left off.
+* **Visual Analytics:** Uses interactive charts to track genre breakdown and reading habits over time.
 
 
 ## 🛠️ The Tech Stack
 
-I chose this stack to learn how to bridge a robust Python backend with a reactive, modern frontend.
 
-* **Backend:** Python & Flask 3.0. I used **SQLAlchemy** because I wanted to practice proper relational mapping with a SQLite database.
-* **Frontend:** React 18 (Vite). I focused on building reusable components and handling asynchronous data with **Axios**.
-* **Visualization:** **Recharts** for the data, and custom **CSS3** for that specific antique library aesthetic I was wanted.
+* **Backend:** Python & Flask 3.0 with SQLAlchemy for ORM database management.
+* **External API:** Google Books API for fast, automated book data retrieval.
+* **Frontend:** React 18 built with Vite for a fast, responsive user interface.
+* **Visualization:** Recharts for data dashboards, paired with custom CSS3 to hit that antique library aesthetic.
 
 ---
 

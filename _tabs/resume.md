@@ -6,6 +6,6 @@ order: 3
 
 
 <script>
-  window.location.href = '../assets/KelvonDixon_Resume.pdf';
+  window.location.href = '../assets/imgs/KelvonDixon_Resume.pdf';
 </script>
 
