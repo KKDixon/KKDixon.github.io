@@ -4,20 +4,20 @@ icon: fas fa-user
 order: 1
 ---
 
-I'm a Computer Science sophmore with a passion for building software that solves real-world problems. 
-
 ### 🚀 My Journey
-I started university with a near blank slate in programming, but I've quickly fallen in love with the "aha!" moments of problem-solving. To me, coding isn't just about syntax—it's about the creativity required to build applications that are both powerful and user-friendly.
-I use this site to document my journey in tech and keep track of things I've learned along the way.
 
-### My Skills
-- **Languages:** Python, Java, JavaScript, SQL, C/C++, HTML/CSS 
-- **Tools:**  VS Code, Git, Github, Postman/Curl
-- **Career Interests:** Full Stack Web Development, Cloud Platforms
+I'm a computer science student discovering my passion for software development through hands-on learning. Before university, I had minimal programming experience, but I've quickly grown to love the problem-solving and creativity that comes with building real applications.
+I'm motivated by building things that solve real problems. I'm particularly interested in web development and building user-friendly applications that people actually want to use.
+Always open to connecting with fellow students, developers, and anyone willing to share advice or discuss tech! Feel free to check out my projects on GitHub or reach out—I'd love to learn from your experiences.
 
-### Projects
-**Past Projects:** Full-Stack Screen Time Quality Tracker, Personal Library Management System\
-**Currently Working on:** TBA
+
+## 💡 How I Learn & Build
+
+* **Dive in first approach:** I believe the best way to master computer science is by building real things and breaking down the friction in daily workflows.
+
+* **Intentional Projects:** Whether it's redesigning how I track habits or managing digital collections, I design software around my real human behavior rather than just making another tutorial clone.
+* **Continuous Documentation:** I use this blog as an open log of my technical growth, professional devolpment and lessons learned along the way.
+
 
 
 ### Contact
